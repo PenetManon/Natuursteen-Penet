@@ -1,0 +1,123 @@
+html {
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+nav {
+    background-color: white;
+    padding: 0.5rem;
+}
+
+nav img {
+    width: 5rem;
+    height: 5rem;
+    margin-left: 2rem;
+    position: absolute;
+    padding: 0 0 2rem 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 1rem;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #4f4940;
+    background-color: white;
+    text-align: end;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.box {
+    height: 100vh;
+}
+
+.box-1 {
+    background: url(../Images/331664647_658257306304701_3961381187982225531_n.jpg) no-repeat center;
+    background-attachment: fixed;
+}
+
+.box-2 {
+    background: url(../Images/331803108_1031454528243332_2412868521490301242_n.jpg) no-repeat center;
+}
+
+.box-3 {
+    background: url(../Images/331806763_904568550626572_3086950075859814293_n.jpg) no-repeat center;
+    background-attachment: fixed;
+}
+.box-4 {
+    background: url(../Images/331915305_194750286577035_5247064266931250863_n.jpg) no-repeat center;
+}
+
+footer {
+    background-color: #4f4940;
+    padding: 2rem;
+    color: #ededed;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #ededed;
+
+}
+
+.footercontainer {
+    max-width: 27rem;
+    max-height: 20rem;
+}
+
+.footercontainer img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.projects {
+    padding: 4rem 1rem;
+    width: 15rem;
+    height: 20rem;
+    margin: 1rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.projects img {
+    width: 60%;
+    object-fit: cover;
+}
+
+.projectscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
